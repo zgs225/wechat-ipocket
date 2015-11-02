@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fcaf248f2ed934d961db2238b5a3ac8a",
-    "content-hash": "b294a830d4411fc4319af67d2e52b7ec",
+    "hash": "404d1f94c27330bfeb0039da0d7f21f1",
+    "content-hash": "e48c255c61d07fdbee4fd157bb37e3c8",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -1530,6 +1530,96 @@
                 "routing"
             ],
             "time": "2015-02-26 15:33:07"
+        },
+        {
+            "name": "overtrue/laravel-wechat",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/laravel-wechat.git",
+                "reference": "609218b2c5a13dc5fc35ad2092cf141404d6aefe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/overtrue/laravel-wechat/zipball/609218b2c5a13dc5fc35ad2092cf141404d6aefe",
+                "reference": "609218b2c5a13dc5fc35ad2092cf141404d6aefe",
+                "shasum": ""
+            },
+            "require": {
+                "overtrue/wechat": "2.1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Overtrue\\LaravelWechat\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "微信 SDK for Laravel",
+            "keywords": [
+                "laravel",
+                "sdk",
+                "wechat",
+                "weixin"
+            ],
+            "time": "2015-09-18 09:57:47"
+        },
+        {
+            "name": "overtrue/wechat",
+            "version": "2.1.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/wechat.git",
+                "reference": "23917c845e15df059508f8693204ddc78fe5eff4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/overtrue/wechat/zipball/23917c845e15df059508f8693204ddc78fe5eff4",
+                "reference": "23917c845e15df059508f8693204ddc78fe5eff4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mcrypt": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Overtrue\\Wechat\\": "src/Wechat/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "anzhengchao@gmail.com"
+                }
+            ],
+            "description": "微信SDK",
+            "keywords": [
+                "sdk",
+                "wechat",
+                "weixin",
+                "weixin-sdk"
+            ],
+            "time": "2015-10-28 10:26:36"
         },
         {
             "name": "paragonie/random_compat",
