@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "zgs225/wechat-ipocket",
+    "description": "Read me later tool for we chat.",
+    "keywords": ["readme later", "pocket", "wechat"],
     "license": "MIT",
     "type": "project",
     "require": {
