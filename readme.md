@@ -1,5 +1,7 @@
 ## Wechat-ipocket
 
+[Build status](https://travis-ci.org/zgs225/wechat-ipocket.svg?branch=master)
+
 A read me later tool for wechat.
 
 ### Requirements
