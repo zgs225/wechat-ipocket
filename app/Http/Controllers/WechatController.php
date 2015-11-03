@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Overtrue\Wechat\Server;
+use Overtrue\Wechat\Message;
 
 class WechatController extends Controller
 {
@@ -18,7 +19,7 @@ class WechatController extends Controller
 
   public function server()
   {
-    return $this->server->server();
+    return $this->server->serve();
   }
 }
 
