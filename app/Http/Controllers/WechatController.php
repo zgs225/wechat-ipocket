@@ -19,6 +19,10 @@ class WechatController extends Controller
 
   public function server()
   {
+    $this->server->on('event', 'subscribe', function($event) {
+      return Message::make('text')->content('感谢您关注');
+    });
+
     return $this->server->serve();
   }
 }
